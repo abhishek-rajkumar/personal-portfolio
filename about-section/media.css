@@ -1,0 +1,388 @@
+@media(max-width: 543px) {
+    .logo {
+        max-width: 75px;
+    }
+}
+
+@media(max-width: 601px) {
+    .form-email-container {
+        width: 100%;
+    }
+
+    .form-subscribe-btn {
+        width: 100%;
+    }
+}
+
+@media(max-width: 767px){
+    .container {
+        padding-bottom: 50px;
+    }
+    .about-first-content{
+        padding: 60px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-first-img-box{
+        width: 90%;
+    }
+
+    .about-second-box{
+        width: 100%;
+        padding: 0 0 0 10px;
+    }
+    .about-second-box:last-child{
+        margin: 0 0 20px;
+        padding: 30px 0 0 10px;
+    }
+
+    .about-first-img-content{
+        margin: -20px -20px 2px -32px;      
+    }
+
+    .about-third-content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .about-third-container-box{
+        width: 100%;
+    }
+
+    .about-third-container-box:last-child{
+        padding: 30px 10px 0;
+    }
+
+    .progress-bar-content{
+        padding: 10px 0 0;
+    }
+
+       /* Seven Container */
+
+    .client-des-title {
+        padding: 0 22px;
+    }
+
+    .client-inner-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .client-box {
+        width: 100%;
+        transition: transform 0.35s ease, box-shadow 0.35s ease;
+    }
+
+    .client-box:active {
+        transform: scale(0.9);
+    }
+
+    .client-box.active {
+        transform: scale(1.025);
+        box-shadow: 0px 10px 30px rgba(144, 12, 63, 0.35);
+    }
+
+    .seven-content {
+        padding: 71px 0 70px;
+    }
+
+    .client-inner-second-content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .client-inner-second-content
+    .client-box:first-child{
+        width: 100%;
+    }
+
+    .client-inner-second-content
+    .client-box:last-child{
+        width: 100%;
+    }
+
+    /* Eight Container  */
+
+    .eight-content {
+        margin: 0;
+        max-width: 732px;
+    }
+
+    .stay-des-title {
+        padding: 0 25px;
+    }
+
+    .stay-inner-content-boxes .service-divider-container {
+        padding: 0;
+    }
+
+    .sty-touch-inner-box-container {
+        padding: 0 0 0 44px;
+    }
+
+    .sty-touch-inner-box-content {
+        padding: 15px 42px 0 0;
+    }
+
+    .custom-cursor,
+    .cursor-dot,
+    .cursor-circle {
+        display: none;
+    }
+
+    .nav-link:hover,
+    .nav-link:active {
+        background: rgba(255, 77, 77, 0.15);
+        border-radius: 5px;
+    }
+
+      /* Footer  */
+
+    .footer-wrapper {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .footer-line {
+        display: none;
+        /* hide vertical lines */
+    }
+
+    .left-box p {
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 921px) {
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        z-index: 1;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 0.88rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        padding: 11.628px;
+    }
+
+    .custom-button {
+        display: none;
+    }
+
+    .inner-abt-heading-title{
+        font-size: 25px;
+    }
+
+    .abt-design-heading-title{
+        font-size: 27.36px;
+    }
+
+    .about-des-content{
+        font-size: 15.504px;
+    }
+
+    .about-second-des-title{
+        font-size: 15.504px;
+    }
+
+    .let-talk-des-title{
+        font-size: 15.504px;
+    }
+
+    .contact-domain-title a{
+        font-size: 20px;
+    }
+
+    .about-third-box-title{
+        font-size: 27.36px;
+    }
+
+    .about-third-des-title{
+        font-size: 15.504px;
+    }
+
+    .about-third-container-box
+    .button-text{
+        font-size: 14.592px;
+    }
+    
+       /* Seven Container */
+
+    .client-heading-title {
+        font-size: 20px;
+    }
+
+    .client-des-title {
+        font-size: 15.504px;
+    }
+
+    .client-desc-title {
+        font-size: 15.504px;
+    }
+
+    .client-name-title {
+        font-size: 15.504px;
+    }
+
+    .client-inner-second-content
+    .client-desc-content{
+        font-size: 15.504px;
+    }
+
+    /* Eight Container  */
+
+    .client-name-title {
+        font-size: 15.504px;
+    }
+
+    .stay-heading-title {
+        font-size: 20px;
+    }
+
+    .stay-des-title {
+        font-size: 15.504px;
+    }
+
+    .subscribe {
+        font-size: 14.592px;
+    }
+
+       /* Footer  */
+
+    .footer-gird-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .grid-row-container {
+        padding: 20px;
+    }
+
+    .footer-primary-section-3 {
+        margin: 0 0 10px;
+    }
+
+    .footer-icon i {
+        font-size: 17px;
+    }
+
+    .footer-social-item {
+        margin: 0 8px;
+    }
+
+    .copyright {
+        font-size: 13.68px;
+    }
+    
+}
+
+@media(max-width: 1024px) {
+    
+    .content-inner-about{
+        padding: 9.5px 0;
+    }
+
+    .about-first-container{
+        padding: 0 20px;
+    }
+
+    .about-social-media-container{
+        display: none;
+    }
+
+    .about-third-container{
+        padding: 0 20px;
+    }
+
+    .about-third-content{
+        padding: 0 0 80px;
+    }
+
+       /* Seven Container */
+
+    .seven-container {
+        padding: 0 20px;
+    }
+
+    .client-inner-content {
+        padding: 0;
+    }
+
+    .client-box {
+        margin: 10px;
+    }
+
+    .client-desc-content {
+        padding: 0;
+    }
+
+    .client-inner-second-content{
+        margin-top: -10px;
+    }
+
+    .eight-content {
+        padding: 60px 0;
+    }
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+    .container {
+        padding-bottom: 60px;
+    }
+
+    .about-first-content{
+        padding: 79px 0 80px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about-second-box{
+        padding: 0 0 0 20px;
+    }
+
+    .about-first-img-box{
+        width: 41.8%;
+    }
+
+    .about-second-box{
+        width: 49.5%;
+    }
+
+    .about-second-box:last-child{
+        width: 100%;
+        margin: 0 0 20px;
+        padding: 40px 0 0 20px;
+    }
+
+    .seven-content{
+        padding: 70px 0;
+    }
+
+    .sty-touch-inner-boxes-content {
+        padding: 0 10%;
+    }
+
+}
