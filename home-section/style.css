@@ -700,24 +700,6 @@
     padding: 0 25px 25px;
 }
 
-/* .progress-wrapper {
-    border-radius: 10px;
-    overflow: hidden;
-    position: relative;
-    background-color: #eee;
-    color: var(--button-text);
-
-}
-
-.progress-bar {
-    width: 75%;
-    background-color: var(--button-background);
-    height: 22px;
-    line-height: 22px;
-    animation: slideFromLeft 2s ease forwards;
-} */
-
-
 .progress-wrapper {
     width: 100%;
     background: #ddd;
